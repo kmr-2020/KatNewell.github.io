@@ -1,3 +1,10 @@
 body {
     background-color: aqua;
 }
+/* media a queary to force nav drop down to stay on the left side once drop down poit is hit */
+@media (max-width: 991px) {
+    .mobile_query {
+        justify-content: flex-start !important;
+    }
+}
+/* end of media queary for force nav left drop down */
