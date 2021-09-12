@@ -1,5 +1,17 @@
+/* fonts */
+/* font-family: 'Satisfy', cursive; */
+/* end fonts */
 body {
     background-color: aqua;
+}
+/* nav bar color */
+.bg_lightteal {
+    background-color: #9dd9d2 ;
+}
+.font_satisfy a {
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    font-size: 24px;
 }
 /* media a queary to force nav drop down to stay on the left side once drop down poit is hit */
 @media (max-width: 991px) {
@@ -8,3 +20,10 @@ body {
     }
 }
 /* end of media queary for force nav left drop down */
+/* footer background */
+.bg_orange {
+    background-color:  #d38e67;
+}
+.border_darkteal {
+    border-color: #16697a !important; 
+}
