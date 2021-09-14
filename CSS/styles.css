@@ -1,5 +1,6 @@
 /* fonts */
-/* font-family: 'Satisfy', cursive; */
+/* font-family: 'Satisfy', cursive; 
+    font-family: 'Allan', cursive;*/
 /* end fonts */
 body {
     background-color: aqua;
@@ -26,4 +27,26 @@ body {
 }
 .border_darkteal {
     border-color: #16697a !important; 
+}
+/* styling for contract info */
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+}
+h2 {
+    font-family: 'Allan', cursive;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+p {
+    font-family: 'Allan', cursive;
+    font-size: 30px;
+}
+.container3 {
+    flex-direction: column;
 }
