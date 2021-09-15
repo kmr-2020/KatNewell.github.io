@@ -29,7 +29,7 @@ body, html {
 /* The hero image */
 .hero-image {
     background-image: url("/img/imgonline-com-ua-Piconpic-pPMtQ7GQammLf\ \(1\).jpg");
-    height: 100%;
+    /* height: 100%; */
     background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -48,7 +48,7 @@ body, html {
 .flip-card {
     background-color: transparent;
     width: 100rm;
-    height: 100vhpx;
+    height: 120vh;
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
   }
@@ -79,16 +79,7 @@ body, html {
   .flip-card-back {
     transform: rotateY(180deg);
   }
-/* #flip_card_txt {
-    font-size: 30px !important;
-    color: white;
-}
-/* srinks text when size of screan srinks */
-/* @media (max-width: 991px) {
-    #flip_card_txt {
-        font-size: 24px !important;
-    }
-} */ 
+
 /* footer background */
 .bg_orange {
     background-color:  #d38e67;
@@ -96,9 +87,9 @@ body, html {
 .border_darkteal {
     border-color: #16697a !important; 
 }
-footer {
+/* footer {
     position: sticky !important;
-}
+} */
 /* styling for contract info */
 h1 {
     font-family: 'Satisfy', cursive;
