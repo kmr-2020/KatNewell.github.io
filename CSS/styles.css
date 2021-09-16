@@ -3,7 +3,11 @@
     font-family: 'Allan', cursive;*/
 /* end fonts */
 body {
-    background-color: aqua;
+    background-image:  url("/img/backgroundimgonline-com-ua-Piconpic-B0mT5VbvcZXkBVNe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500vh;
+
 }
 /* nav bar color */
 .bg_lightteal {
@@ -44,7 +48,7 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card  */
 .flip-card {
     background-color: transparent;
     width: 100rm;
@@ -105,10 +109,58 @@ h3 {
     font-weight: bolder;
     font-size: 40px;
 }
+h4 {
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+}
+h5 {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
 p {
     font-family: 'Allan', cursive;
-    font-size: 30px;
+   
 }
 .container3 {
     flex-direction: column;
 }
+
+/* carousel height */
+.carousel-inner {
+    height: 100vh;
+}
+
+#pix_1 {
+    height: 100vh !important;
+    width: 50rem !important;
+}
+#pix_2 {
+    height: 100vh !important;
+    width: 50rem !important;
+}#pix_3 {
+    height: 100vh !important;
+}#pix_4 {
+    height: 100vh !important;
+    width: 50rem !important;
+}#pix_5 {
+    height: 100vh !important;
+    width: 50rem !important;
+}
+
+/* accordion styling */
+.accordion-body {
+    background-color: bisque;
+}
+.accordion-button {
+    background-color: #d38e67;
+}
+/* form styling */
+.bg_muttedteal {
+    background-color: bisque;
+}
+/* @media (max-width: 991px) {
+    .contact_brake {
+        clear: both !important;
+    }
+} */

@@ -27,8 +27,8 @@
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-end mobile_query mt-5" id="navbarNavAltMarkup">
           <div class="navbar-nav font_satisfy">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-            <a class="nav-link" href="/projects.html">Projects</a>
+            <a class="nav-link "  href="/index.html">Home</a>
+            <a class="nav-link active"  aria-current="page"href="/projects.html">Projects</a>
             <a class="nav-link" href="/contact.html">Contact</a>
           </div>
         </div>
@@ -36,7 +36,119 @@
     </nav>
     <!--nave bar end-->
 
+    <!--carousel-->
+    
+    <div class="container w-75 "> 
+      <h4 class="mt-5 text-light">Art Projects</h4>
+      <div id="carouselExampleCaptions" class="carousel slide m-5 p-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ps-5" data-bs-interval="10000">
+            <img src="/img/selfprotrait.jpg" class="d-block w-100" alt="drawing of a girl in a tree" id="pix_1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Self Portrait</h5>
+              <p class="text-white fs-3">Prisma pencil on paper. 18in. by 20 in.</p>
+            </div>
+          </div>
+          <div class="carousel-item ps-5" data-bs-interval="2000">
+            <img src="img/lust.jpg" class="d-block w-100" alt="drawing of a couple intertwind under sheets" id="pix_2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Lust</h5>
+              <p class="text-white fs-3">Pencil on paper. 18in by 20in.</p>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Fear.jpg" class="d-block w-100" alt="draing of a mading shielding away form a woman trying retrain him." id="pix_3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Fear</h5>
+              <p class="text-white fs-3">Oil pastel on paper. 20in by 18 in.</p>
+            </div>
+          </div>
+          <div class="carousel-item ps-5">
+            <img src="img/nightmirror.jpg" class="d-block w-100" alt="drawing of a broken computer in a pool surrounded by computer towers with ominous red clouds in the back ground" id="pix_4">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Night Mirror</h5>
+              <p class="text-white fs-3">Oil pastel and color pencil on paper. 18in by 20in.</p>
+            </div>
+          </div>
+          <div class="carousel-item ps-5">
+            <img src="img/humanity.jpg" class="d-block w-100" alt="dwawing of a half monster half human holding the globe, its claw is digging into the northern hemisphere and its human hand is cradling the southern hemisphere" id="pix_5">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white">Humanity</h5>
+              <p class="text-white fs-3">India ink on paper. 18in. by 20in. </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--end of carousel-->
+  
+    <!--accordion-->
+    <div class="container p-5">
+      <h4 class="text-light">Programing Projects</h4>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button border border-3 border-info" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <strong> Triangles</strong>  
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> This is the first piece of code that ever got me exited to learn how to code.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed border border-3 border-info " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            <strong> Final Project </strong> 
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> This is the code from my final project in Web Site for Beginner. 
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed border border-3 border-info" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            <strong> Bootstrap </strong> 
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> This is the first project I ever did using bootstrap. 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!--footer-->
+    <footer class="d-flex justify-content-center border-top border-info border-5 bg_orange align-items-end">
+      <div class="container-fluid border-top border-4 border_darkteal d-flex justify-content-center">
+        <i class="fab fa-facebook fa-2x font-monospac p-1"></i>
+        <i class="fab fa-instagram fa-2x font-monospac p-1"></i>
+        <i class="fab fa-pinterest fa-2x font-monospac p-1"></i>
+        <i class="fab fa-github fa-2x font-monospac p-1"></i>
+      </div>
+    </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
