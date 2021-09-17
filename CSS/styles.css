@@ -33,10 +33,9 @@ body, html {
 /* The hero image */
 .hero-image {
     background-image: url("/img/imgonline-com-ua-Piconpic-pPMtQ7GQammLf\ \(1\).jpg");
-    /* height: 100%; */
     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
      /* position: relative; */
 }
 /* Place text in the middle of the image */
@@ -91,10 +90,8 @@ body, html {
 .border_darkteal {
     border-color: #16697a !important; 
 }
-/* footer {
-    position: sticky !important;
-} */
-/* styling for contract info */
+
+/* styling for contract info and fonts */
 h1 {
     font-family: 'Satisfy', cursive;
     font-weight: bolder;
@@ -159,8 +156,3 @@ p {
 .bg_muttedteal {
     background-color: bisque;
 }
-/* @media (max-width: 991px) {
-    .contact_brake {
-        clear: both !important;
-    }
-} */
